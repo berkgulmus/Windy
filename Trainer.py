@@ -379,7 +379,3 @@ class SoloQN():
             if (g['lr'] > self.min_lr):
                 g['lr'] = lr
 
-myqn = SoloQN("ModelK00005")
-myqn.update_lr_periodically = False
-myqn.set_lr(0.000000001)
-myqn.train(15000)   
