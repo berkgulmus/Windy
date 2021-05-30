@@ -180,5 +180,6 @@ class Tester():
             self.test_model(times=self.test_times,file_name=model )
         self.show_all_test_results(file_name=self.model_name + "_TestedWithTS="+ str(self.test_times))
 
+#example
 Tstr = Tester('ModelC00006',test_times=25)
 Tstr.Test()
